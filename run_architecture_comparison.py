@@ -1,8 +1,8 @@
 """Compare linear SSM, compact GRU SSM, and tiny causal Transformer.
 
-Uses previously extracted shared-parcel edge-change trajectories. PCA is fit
-inside each training fold. Evaluation is one-step-ahead teacher-forced
-prediction on wholly held-out trials/subjects, never random window splits.
+Uses previously extracted shared parcel edge change trajectories. PCA is fit
+inside each training fold. Evaluation is one step ahead teacher forced
+prediction on wholly held out trials/subjects, never random window splits.
 """
 
 from __future__ import annotations
