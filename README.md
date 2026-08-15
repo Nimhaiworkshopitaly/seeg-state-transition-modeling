@@ -5,17 +5,17 @@ This package contains the code used for the two-subject pilot analysis.
 ## Analysis sequence
 
 1. `run_analysis.py` validates the raw MATLAB recordings, timing manifest,
-   localization files, and CCEP table and creates quality-control outputs.
+   localization files, CCEP table and creates quality control outputs.
 2. `run_parcel_pca_models.py` finds the intersection of Brainnetome
-   macro-parcels represented in both subjects, averages contacts within each
+   macro parcels represented in both subjects, averages contacts within each
    parcel, computes two-second parcel-connectivity windows with one-second
    steps, and subtracts each trial's prestimulation connectivity baseline.
 3. `run_architecture_comparison.py` fits PCA inside each training fold and
    compares persistence, a regularized linear state-space model, a compact GRU,
-   and a small causal Transformer. It performs complete-trial within-subject
-   holdout and bidirectional complete-subject holdout.
+   and a small causal Transformer. It performs complete trial within subject
+   holdout and bidirectional complete subject holdout.
 4. `make_publication_figures.py` creates the three summary figures from the
-   saved architecture-comparison metrics.
+   saved architecture comparison metrics.
 
 ## Run in PowerShell
 
