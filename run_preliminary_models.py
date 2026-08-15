@@ -1,9 +1,9 @@
-"""Preliminary held-out-trial and cross-subject prediction experiment.
+"""Preliminary held out trial and cross subject prediction experiment.
 
-Primary state: percent change from pre-stimulation total functional-network
-strength. Connectivity is estimated in 2-second, 50%-overlapping windows after
-common-average referencing, 60-Hz notch filtering, 1-80-Hz band-pass filtering,
-and resampling to 250 Hz. Active-stimulation windows are deliberately excluded.
+Primary state: percent change from pre stimulation total functional network
+strength. Connectivity is estimated in 2-second, 50% overlapping windows after
+common average referencing, 60-Hz notch filtering, 1-80-Hz band pass filtering,
+and resampling to 250 Hz. Active stimulation windows are deliberately excluded.
 """
 
 from __future__ import annotations
