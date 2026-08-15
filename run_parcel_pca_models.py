@@ -1,4 +1,4 @@
-"""Leakage-safe shared-parcel connectivity PCA experiment."""
+"""Leakage safe shared parcel connectivity PCA experiment."""
 
 from __future__ import annotations
 
