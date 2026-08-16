@@ -45,9 +45,9 @@ python make_publication_figures.py
 ## Interpretation boundary
 
 The cross-subject experiment uses only parcel labels represented in both
-subjects; missing parcels are not zero-filled. PCA and linear-model scaling are
+subjects; missing parcels are not zero-filled. PCA and linear model scaling are
 estimated from the training fold only. Nevertheless, different subjects may
 sample different locations and numbers of contacts within the same macro-parcel.
 The transfer results are therefore exploratory and do not establish global
-network-state generalizability.
+network state generalizability.
 
